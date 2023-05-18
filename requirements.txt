@@ -1,0 +1,37 @@
+# requirements.txt
+Matplotlib
+backtrader
+requests
+tda-api #main library to use
+td-ameritrade-python-api
+websockets
+requests-oauthlib
+pyopenssl
+pycparser
+oauthlib
+itsdangerous
+flask
+cryptography
+colorama
+click
+cffi
+Werkzeug
+MarkupSafe
+Jinja2
+sqlalchemy
+psycopg2
+loguru
+alembic
+fredapi
+pandas
+geoalchemy2
+openai
+wheel
+eodhd #https://eodhistoricaldata.com
+eod
+retry
+
+# testing
+pytest 
+pytest-postgresql 
+factory_boy # Factory Boy is a Python library that helps you create "fake" or "mock" objects that you can use for testing. In this case, we're creating "fake" Entity and Historical_Price_Data objects. We're using these factories to create instances of our models without having to manually set every field.
